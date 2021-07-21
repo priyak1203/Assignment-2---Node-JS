@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./players.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Player Details</title>
+</head>
+<body>
+    <main class="main-section" >
+        <h1 id="player-heading" >Player Details</h1>
+        <div id="player-card">
+            <div class="image">
+                <img id="p-image" src="" alt="">
+            </div>
+            <div class="details">
+                <div class="p-details">
+                    <h2>Name   : <span id="p-name"></span></h2>
+                    <h3>Team   : <span id="p-team"></span></h3>
+                    <h4>Role   : <span id="p-role"></span></h4>
+                    <h4>DoB    : <span id="p-dob"></span></h4>
+                    <h4>Rating : <span id="p-rating"></span></h4>
+                </div>
+            </div>
+        </div>
+        <div id="btn-wrapper">
+            <button id="btn-back" class="btn-styles"> <i class="fas fa-long-arrow-alt-left"></i> BACK </button>
+            <button id="btn-next" class="btn-styles">NEXT <i class="fas fa-long-arrow-alt-right"></i> </button> 
+        </div>
+        <div id="link-wrapper">
+            <a href="./index.html" class="btn-styles">Go To Home Page</a>
+        </div>
+        
+    </main>
+    <script src="./players.js"></script>
+</body>
+</html>
